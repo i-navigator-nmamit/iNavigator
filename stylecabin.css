@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #989191;
+}
+
+/* Search bar styles */
+.search-container {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Cabin info styles */
+.cabin-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cabin-info {
+    margin-bottom: 10px;
+}
+
+/* Hover effect for cabin info */
+.cabin-info:hover {
+    background-color: #f9f9f9;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
